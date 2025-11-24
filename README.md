@@ -1,25 +1,30 @@
-# Marché Pièces Pro — Learning Build
+# Marché Pièces Pro
 
-Welcome! This is your project folder. We'll build everything together step-by-step.
+Offline-first PWA for spare parts inventory management in Abidjan markets. Designed for low-literacy users with French labels and Mobile Money support.
 
-## What You'll Learn
-- React components and hooks
-- IndexedDB for offline storage
-- Image handling (camera + upload)
-- PWA basics (offline-first apps)
-- State management
-- Real-world problem solving
+## Current Features (Phase 1)
+- Category management (add, list, delete with validation)
+- Item management (add, edit, delete items with price and stock)
+- Data persistence using IndexedDB
+- Simple navigation between Dashboard and Stock pages
 
-## Current Status
-🎯 **Phase 0:** Clean slate — Ready to start Phase 1!
+## Tech Stack
+- React 18 + Vite
+- Dexie (IndexedDB wrapper)
+- React Router v6
+- Pure CSS (no frameworks)
 
-## Resources
-- **PROJECT_PLAN.md** — Your complete roadmap (save this!)
-- Check plan for current phase tasks
-- Test each feature before moving on
+## Getting Started
+```bash
+npm install
+npm run dev
+```
 
-## Quick Commands (Later)
-We'll set these up together as we build.
+## Build for Production
+```bash
+npm run build
+npm run preview
+```
 
----
-**Let's build something great!** 🚀
+## Project Status
+Phase 1 complete. Ready for Phase 2 (images and variants).
